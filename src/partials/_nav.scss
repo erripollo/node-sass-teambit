@@ -1,0 +1,45 @@
+/* Nav css */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid $text_color_primary;
+
+  //logo
+  .logo {
+    img {
+      width: 130px;
+    }
+  }
+
+  //links nav
+  .links {
+    display: flex;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    & > a {
+      color: $text_color_primary;
+      margin-left: 30px;
+    }
+
+    // Button Sing up
+    .btn_outline {
+      @include btn_outline;
+      margin-left: 30px;
+
+      img {
+        width: 20px;
+        margin-right: 5px;
+      }
+      a {
+        color: $color_secondary;
+      }
+    }
+  }
+}

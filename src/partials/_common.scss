@@ -1,0 +1,25 @@
+/* Commons css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $text_color_primary;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+@mixin btn_outline {
+  padding: 10px;
+  color: $text_color_primary;
+  border: 1px solid $color_secondary;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
