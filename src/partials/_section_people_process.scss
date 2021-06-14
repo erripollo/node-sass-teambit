@@ -1,0 +1,23 @@
+/* People process section */
+.people_process {
+  background-color: $background_color_secondary;
+  padding-top: 6rem;
+  h2 {
+    text-align: center;
+    margin: auto;
+    width: 650px;
+  }
+
+  .cards {
+    @include cards_3;
+  }
+
+  .bottom_img {
+    text-align: center;
+    padding-bottom: 6rem;
+    border-bottom: 1px solid $text_color_primary;
+    img {
+      height: 350px;
+    }
+  }
+}

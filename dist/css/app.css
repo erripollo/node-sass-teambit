@@ -21,6 +21,11 @@ h1 {
   line-height: 4.5rem;
 }
 
+h2 {
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+}
+
 .row_2 {
   display: flex;
 }
@@ -116,4 +121,69 @@ nav .links .btn_outline a {
 .jumbotron .jumbotron_link a {
   text-decoration: none;
   color: #58402c;
+}
+
+/* People process section */
+.people_process {
+  background-color: #ffe7d2;
+  padding-top: 6rem;
+}
+.people_process h2 {
+  text-align: center;
+  margin: auto;
+  width: 650px;
+}
+.people_process .cards {
+  display: flex;
+  padding: 3rem 0 6rem;
+}
+.people_process .cards .card {
+  width: calc(100% / 3);
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.people_process .cards .card img {
+  height: 100px;
+  margin-bottom: 1.5rem;
+}
+.people_process .bottom_img {
+  text-align: center;
+  padding-bottom: 6rem;
+  border-bottom: 1px solid #58402c;
+}
+.people_process .bottom_img img {
+  height: 350px;
+}
+
+/* Teambit solutions section */
+.teambit_solution {
+  background-color: #ffe7d2;
+  padding: 6rem 0 4rem;
+}
+.teambit_solution h2 {
+  text-align: center;
+  margin: auto;
+  width: 650px;
+}
+.teambit_solution .cards {
+  display: flex;
+  padding: 3rem 0 6rem;
+}
+.teambit_solution .cards .card {
+  width: calc(100% / 3);
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.teambit_solution .cards .card img {
+  height: 100px;
+  margin-bottom: 1.5rem;
+}
+.teambit_solution .bottom_img {
+  text-align: center;
+  padding-bottom: 8rem;
+}
+.teambit_solution .bottom_img img {
+  height: 350px;
 }

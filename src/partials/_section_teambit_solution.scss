@@ -1,0 +1,22 @@
+/* Teambit solutions section */
+.teambit_solution {
+  background-color: $background_color_secondary;
+  padding: 6rem 0 4rem;
+  h2 {
+    text-align: center;
+    margin: auto;
+    width: 650px;
+  }
+
+  .cards {
+    @include cards_3;
+  }
+
+  .bottom_img {
+    text-align: center;
+    padding-bottom: 8rem;
+    img {
+      height: 350px;
+    }
+  }
+}
