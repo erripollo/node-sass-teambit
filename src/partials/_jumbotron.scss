@@ -1,0 +1,32 @@
+/* Jumbotron css */
+.jumbotron {
+  padding: 4rem 0;
+
+  p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin: 20px 0 40px;
+  }
+
+  .jumbotron_buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    .btn_solid {
+      @include btn_solid;
+    }
+    span {
+      margin: 0 5px;
+    }
+  }
+
+  .jumbotron_link {
+    font-size: 0.9rem;
+    font-weight: 400;
+    a {
+      text-decoration: none;
+      color: $text_color_primary;
+    }
+  }
+}
